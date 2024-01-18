@@ -13,7 +13,9 @@ cd addon_loader
 git checkout v1.0.0
 ```
 
-`Project -> Project Settings -> Plugins -> Addon Loader -> Enable`
+`Project -> Project Settings -> Plugins -> addon_loader -> Enable`
+
+Autoloads are a bit janky so you may need to restart the editor for errors to go away.
 
 ## Licensing
 
