@@ -5,7 +5,7 @@ var main_panel: Control
 var addons_panel_manager: Variant
 
 func _enter_tree() -> void:
-	addons_panel_manager = load("res://addons/addon_loader/addons_shared_gen/addons_panel_manager.gd").AddonsPanelManager.new(self)
+	addons_panel_manager = load("res://addons/addon_loader/addons_shared_gen/addons_panel_manager.gd").AddonsPanelManager.new(self, "addon_loader")
 	main_panel = load("res://addons/addon_loader/scenes_editor/ui_addon_panel.tscn").instantiate()
 	addons_panel_manager.add_main_panel(main_panel)
 
